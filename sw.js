@@ -1,6 +1,6 @@
 /* eFinance — service worker: membuat aplikasi bisa dibuka cepat dan tetap tampil saat offline.
    Naikkan angka VERSI setiap kali kamu mengunggah index.html yang baru. */
-const VERSI = 'efinance-v1';
+const VERSI = 'efinance-v2';
 const INTI = ['./', './index.html', './manifest.webmanifest', './icon-192.png', './icon-512.png', './icon-180.png', './icon-maskable-512.png'];
 
 self.addEventListener('install', e => {
